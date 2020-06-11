@@ -1,0 +1,99 @@
+body,h1,h2,h4,h5,h6,button{
+    margin: 0;
+    padding: 0;
+    background-color: #e8ead3;
+}
+
+h3{
+    margin: 0;
+    padding: 0;  
+}
+
+
+button{
+    display: inline-block;
+}
+
+body{
+    padding: 2% 4% ;
+}
+
+/* top section */
+.add-question{
+    padding: 2% 0;
+    
+}
+
+.add-question .btn{
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 15px;
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* second div */
+#second{
+    margin-top: 30px;
+}
+
+#second input,.add {
+    padding: 1%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    margin-right: 80px ;
+    
+   
+}
+
+
+/* third div */
+
+
+#add-section{
+    display: none;;
+}
+
+.show-only-when{
+    display: none;
+    padding: 1% 2%;
+    font-size: 1.5rem;
+}
+
+.questions h3,.questions p{
+    padding: 1% 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.questions .btn1{
+    padding: 5px;
+    font-size: 20px; 
+     font-weight: bold; 
+     margin-right: 25px;
+     width: 100px;
+     margin-top: 0;
+}
+
+.questions div{
+    margin-top: 30px;
+    
+}
+
+.dynamic-div{
+    background-color: #ffff;
+    padding: 1%;
+    width: 300px;
+    margin-right: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* responsive section */
+@media (max-width:750px){
+    #add-section .col-res{
+        margin-top: 10px;
+    }
+}
